@@ -8,28 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		CED1683F22DE2D5B0098A0DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED1683E22DE2D5B0098A0DC /* AppDelegate.swift */; };
-		CED1684122DE2D5B0098A0DC /* FriendsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED1684022DE2D5B0098A0DC /* FriendsTableViewController.swift */; };
 		CED1684422DE2D5B0098A0DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED1684222DE2D5B0098A0DC /* Main.storyboard */; };
 		CED1684622DE2D5C0098A0DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED1684522DE2D5C0098A0DC /* Assets.xcassets */; };
 		CED1684922DE2D5C0098A0DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED1684722DE2D5C0098A0DC /* LaunchScreen.storyboard */; };
-		CED1685122DF7EFA0098A0DC /* AddFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED1685022DF7EFA0098A0DC /* AddFriendViewController.swift */; };
-		CED1685322DF7F1B0098A0DC /* FriendDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED1685222DF7F1B0098A0DC /* FriendDetailViewController.swift */; };
-		CED1685522DF7F7E0098A0DC /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED1685422DF7F7E0098A0DC /* Friend.swift */; };
-		CED1685722DF7FF50098A0DC /* FriendTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED1685622DF7FF50098A0DC /* FriendTableViewCell.swift */; };
+		EDA5269125B34E870089416D /* EditFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA5269025B34E870089416D /* EditFriendViewController.swift */; };
+		EDC68DE925B0E44B0040794C /* FriendsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC68DE825B0E44B0040794C /* FriendsTableViewController.swift */; };
+		EDC68DEC25B0E4AD0040794C /* AddFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC68DEB25B0E4AD0040794C /* AddFriendViewController.swift */; };
+		EDC68DF025B0E4D10040794C /* FriendDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC68DEF25B0E4D10040794C /* FriendDetailViewController.swift */; };
+		EDC68DF525B0E5710040794C /* FriendTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC68DF425B0E5710040794C /* FriendTableViewCell.swift */; };
+		EDC68DFA25B0EED70040794C /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC68DF925B0EED70040794C /* Friend.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CED1683B22DE2D5B0098A0DC /* HobbyTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HobbyTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED1683E22DE2D5B0098A0DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CED1684022DE2D5B0098A0DC /* FriendsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsTableViewController.swift; sourceTree = "<group>"; };
 		CED1684322DE2D5B0098A0DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CED1684522DE2D5C0098A0DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CED1684822DE2D5C0098A0DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CED1684A22DE2D5C0098A0DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CED1685022DF7EFA0098A0DC /* AddFriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFriendViewController.swift; sourceTree = "<group>"; };
-		CED1685222DF7F1B0098A0DC /* FriendDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendDetailViewController.swift; sourceTree = "<group>"; };
-		CED1685422DF7F7E0098A0DC /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
-		CED1685622DF7FF50098A0DC /* FriendTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendTableViewCell.swift; sourceTree = "<group>"; };
+		EDA5269025B34E870089416D /* EditFriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditFriendViewController.swift; sourceTree = "<group>"; };
+		EDC68DE825B0E44B0040794C /* FriendsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsTableViewController.swift; sourceTree = "<group>"; };
+		EDC68DEB25B0E4AD0040794C /* AddFriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFriendViewController.swift; sourceTree = "<group>"; };
+		EDC68DEF25B0E4D10040794C /* FriendDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendDetailViewController.swift; sourceTree = "<group>"; };
+		EDC68DF425B0E5710040794C /* FriendTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendTableViewCell.swift; sourceTree = "<group>"; };
+		EDC68DF925B0EED70040794C /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,11 +64,11 @@
 		CED1683D22DE2D5B0098A0DC /* HobbyTracker */ = {
 			isa = PBXGroup;
 			children = (
+				EDC68DF225B0E4E50040794C /* View Controllers */,
 				CED1683E22DE2D5B0098A0DC /* AppDelegate.swift */,
-				CED1685822DF81050098A0DC /* View Controllers */,
-				CED1685A22DF81450098A0DC /* Custom Views */,
-				CED1685922DF81340098A0DC /* Models */,
 				CED1684222DE2D5B0098A0DC /* Main.storyboard */,
+				EDC68DFC25B0EEE50040794C /* Model */,
+				EDC68DF725B0E58F0040794C /* Views */,
 				CED1684522DE2D5C0098A0DC /* Assets.xcassets */,
 				CED1684722DE2D5C0098A0DC /* LaunchScreen.storyboard */,
 				CED1684A22DE2D5C0098A0DC /* Info.plist */,
@@ -74,30 +76,31 @@
 			path = HobbyTracker;
 			sourceTree = "<group>";
 		};
-		CED1685822DF81050098A0DC /* View Controllers */ = {
+		EDC68DF225B0E4E50040794C /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				CED1684022DE2D5B0098A0DC /* FriendsTableViewController.swift */,
-				CED1685022DF7EFA0098A0DC /* AddFriendViewController.swift */,
-				CED1685222DF7F1B0098A0DC /* FriendDetailViewController.swift */,
+				EDC68DE825B0E44B0040794C /* FriendsTableViewController.swift */,
+				EDC68DEB25B0E4AD0040794C /* AddFriendViewController.swift */,
+				EDC68DEF25B0E4D10040794C /* FriendDetailViewController.swift */,
+				EDA5269025B34E870089416D /* EditFriendViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
 		};
-		CED1685922DF81340098A0DC /* Models */ = {
+		EDC68DF725B0E58F0040794C /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				CED1685422DF7F7E0098A0DC /* Friend.swift */,
+				EDC68DF425B0E5710040794C /* FriendTableViewCell.swift */,
 			);
-			path = Models;
+			path = Views;
 			sourceTree = "<group>";
 		};
-		CED1685A22DF81450098A0DC /* Custom Views */ = {
+		EDC68DFC25B0EEE50040794C /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				CED1685622DF7FF50098A0DC /* FriendTableViewCell.swift */,
+				EDC68DF925B0EED70040794C /* Friend.swift */,
 			);
-			path = "Custom Views";
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +130,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1020;
-				LastUpgradeCheck = 1020;
+				LastUpgradeCheck = 1230;
 				ORGANIZATIONNAME = "Lambda School";
 				TargetAttributes = {
 					CED1683A22DE2D5B0098A0DC = {
@@ -171,12 +174,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CED1685122DF7EFA0098A0DC /* AddFriendViewController.swift in Sources */,
-				CED1684122DE2D5B0098A0DC /* FriendsTableViewController.swift in Sources */,
-				CED1685522DF7F7E0098A0DC /* Friend.swift in Sources */,
-				CED1685722DF7FF50098A0DC /* FriendTableViewCell.swift in Sources */,
-				CED1685322DF7F1B0098A0DC /* FriendDetailViewController.swift in Sources */,
+				EDC68DEC25B0E4AD0040794C /* AddFriendViewController.swift in Sources */,
+				EDC68DE925B0E44B0040794C /* FriendsTableViewController.swift in Sources */,
+				EDC68DF525B0E5710040794C /* FriendTableViewCell.swift in Sources */,
+				EDC68DFA25B0EED70040794C /* Friend.swift in Sources */,
 				CED1683F22DE2D5B0098A0DC /* AppDelegate.swift in Sources */,
+				EDA5269125B34E870089416D /* EditFriendViewController.swift in Sources */,
+				EDC68DF025B0E4D10040794C /* FriendDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,6 +232,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -289,6 +294,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -323,6 +329,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H8Q2JQ9WN3;
 				INFOPLIST_FILE = HobbyTracker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -340,6 +347,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H8Q2JQ9WN3;
 				INFOPLIST_FILE = HobbyTracker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
